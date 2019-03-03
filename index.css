@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+}
+
+header, legend {
+  text-align: center;
+}
+
+main {
+  height: 350px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+legend, h2 {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
+}
+
+.meal-details-box {
+  border: 2px solid black;
+}
+
+.meal-details-box, .calculations {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  width: 48%;
+}
+
+.button-pair {
+  margin-top: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}
+
+label {
+  width: 40%;
+}
+
+p {
+  line-height: 0.5em;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.customer-charges, .earnings-info {
+  border: 2px solid black;
+  height: 45%;
+}
+
+.customer-charges {
+  margin-bottom: 10%;
+}
+
+.reset-button {
+  margin-top: 25px;
+  margin-right: 50px;
+  text-align: right;
+}
